@@ -85,7 +85,7 @@ header ul{
 
 .div_abt img{
     padding-top: 15%;
-    box-shadow: 5px 10px rgb(72, 4, 18);
+    box-shadow: 10px 15px rgb(72, 4, 18);
 }
 
 .mLR
@@ -99,4 +99,68 @@ header ul{
 
 #about h1{
     text-align: center;
+}
+
+/*team section*/
+
+#team{
+    width: 100%;
+    height: 500px;
+}
+.teamcont1{
+    background-color: cyan;
+    height: 450px;
+    padding-top: 50px;
+
+}
+
+.teamLeft{
+    margin-left: 4%;
+    width: 26%;
+    float: left;
+    height: 250px;
+    padding: 0 2%;
+}
+
+.teamRight{
+    margin-left: 2%;
+    width: 60%;
+    margin-right: 4%;
+    float: left;
+}
+/*contacts*/
+
+.contactcont1{
+    width: 100%;
+    height: 400px;
+
+}
+
+.contactcont1{
+    width: 92%;
+    margin: 0 4%;
+}
+
+.contactLeft,.contactRight{
+    width: 50%;
+    float: right;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    background-color: brown;
+    height: 40px;
+    border: none;
+    font-size: 22px;
+    color: antiquewhite;
 }
